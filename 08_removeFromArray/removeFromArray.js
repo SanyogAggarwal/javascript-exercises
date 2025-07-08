@@ -1,6 +1,6 @@
 const removeFromArray = function(Arrray , ...num) {
     for(const input of num){
-    while(Arrray.indexOf(input) !== -1){
+    while(Arrray.indexOf(input) >= 0){
     var RemoveElement = Arrray.splice(Arrray.indexOf(input) , 1)
     }
 }
