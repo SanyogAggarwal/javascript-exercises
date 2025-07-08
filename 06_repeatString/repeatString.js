@@ -2,15 +2,14 @@
 const repeatString = function(string,num) {
     
     if(num>=0){
-        var Newstring = "";
+        let newstring = "";
     for(let i = 1 ; i <= num ; ++i ){
-     Newstring += string;
-     
-    }
+     newstring += string;
+     }
+     return newstring;
 }else{
    return 'ERROR';
-}
-return Newstring;  
+}  
 };
 console.log(repeatString("hey",3));
  
